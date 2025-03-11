@@ -141,21 +141,21 @@
         <li>
           <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
             <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-            Light
+            Светлая
             <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
           </button>
         </li>
         <li>
           <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
             <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-            Dark
+            Тёмная
             <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
           </button>
         </li>
         <li>
           <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
             <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
-            Auto
+            Системная
             <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
           </button>
         </li>
@@ -165,20 +165,23 @@
     <header data-bs-theme="dark">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Modpacks</a>
+          <a class="navbar-brand" href="#">Сборки</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Main page</a>
+                <a class="nav-link active" aria-current="page" href="index.html">К главной</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1lLu7JaAFoo23XOV87XWc5rpGY2zUfxdeOsy7jaUptiE/edit?usp=sharing">Modpacks status</a>
+                <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1lLu7JaAFoo23XOV87XWc5rpGY2zUfxdeOsy7jaUptiE/edit?usp=sharing">Прогресс разработки</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">v0.2.1</a>
+                <a class="nav-link" href="mpeng.html">Go to english version</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">v0.2.2</a>
               </li>
             </ul>
           </div>
@@ -201,7 +204,7 @@
               <div class="carousel-caption text-end text-white">
                 <h1>TMUC-Create</h1>
                 <p class="opacity-75">Первый модпак серии.<br>Идеально подойдёт любителям механики.</p>
-                <p><a class="btn btn-lg btn-primary" href="#create">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#create">Перейти</a></p>
               </div>
             </div>
           </div>
@@ -211,7 +214,7 @@
               <div class="carousel-caption text-start text-white">
                 <h1>TMUC-BC+IC2</h1>
                 <p class="opacity-75">Посвящена первым индустриальным модам.<br>Осторожно, с примесью ностальгии!</p>
-                <p><a class="btn btn-lg btn-primary" href="#bcic2">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#bcic2">Перейти</a></p>
               </div>
             </div>
           </div>
@@ -221,7 +224,7 @@
               <div class="carousel-caption text-end text-white">
                 <h1>TMUC-ThermalExpansion</h1>
                 <p class="opacity-75">Сборка, насыщенная модами от Team CoFH.<br>(С небольшим усложнением)</p>
-                <p><a class="btn btn-lg btn-primary" href="#thermal">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#thermal">Перейти</a></p>
               </div>
             </div>
           </div>
@@ -252,10 +255,8 @@
             <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>v0.1.2</button>
             <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>1.20.1</button>
             <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Verified</button>
-            <p class="lead">Create и его аддоны! Валы и шестерни, поезда и дрели! Полная автоматизация, основанная на вращении! (Псс, на гугл диске также есть схематики)</p>
-            <hr>
-            <p class="lead">Create and its addons! Shafts and gears, trains and drills! Full automation based on rotation! (Psst, there are also schematics on Google Drive)</p>
+            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Проверено</button>
+            <p class="lead">Create и его аддоны! Валы и шестерни, поезда и дрели! Полная автоматизация, основанная на вращении!<br>(Псс, на гугл диске также есть схематики)</p>
             <p>
               <a class="btn btn-outline-primary" href="https://drive.google.com/drive/folders/1H6VUQiglklcpg6jkbrmTIja9jNX3CDBs?usp=drive_link">GDrive</a>
               <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
@@ -272,13 +273,11 @@
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">TMUC-BC+IC2</h2>
-            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>v0.0.4</button>
+            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>v0.0.5</button>
             <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>1.7.10</button>
             <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Testing</button>
+            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>
             <p class="lead">Первые технологии автоматизации производства в Майнкрафт. Узнайте, как это делали 10 лет назад!</p>
-            <hr>
-            <p class="lead">The First Technologies of Automation of Production in Minecraft. Find out how it was done 10 years ago!</p>
             <p>
               <a class="btn btn-outline-primary" href="https://drive.google.com/drive/folders/1dUPoyxP2KOXAjpPY677Dxyttm7gPw3Iu?usp=drive_link">GDrive</a>
               <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
@@ -298,10 +297,8 @@
             <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>v0.1.1</button>
             <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>1.20.1</button>
             <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Testing</button>
+            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>
             <p class="lead">Сборка на основе качественной модификации. Идеи мода использовали авторы Forge, Factorio, ... И это не шутка!</p>
-            <hr>
-            <p class="lead">Modpack based on a high-quality modification. The ideas of the mod were used by the authors of Forge, Factorio, ... And this is not a joke!</p>
             <p>
               <a class="btn btn-outline-primary" href="https://drive.google.com/drive/folders/1b70j_v3N6Qx1dC1s6k62DX-0lsXfsasA?usp=drive_link">GDrive</a>
               <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
@@ -319,12 +316,10 @@
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">TMUC-ImmersiveEngineering</h2>
             <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>v0.0.0</button>
-            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Game version</button>
-            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Modloader</button>
-            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Development</button>
+            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Версия игры</button>
+            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Модлоадер</button>
+            <button id="tag" type="button" class="btn btn-secondary btn-sm" disabled>Разработка</button>
             <p class="lead">Сюрприз! Здесь также появится эта сборка и другие. Следите за новостями!</p>
-            <hr>
-            <p class="lead">Surprise! This modpack and others will also appear here. Stay tuned!</p>
             <p>
               <a class="btn btn-outline-success" href="https://docs.google.com/spreadsheets/d/1lLu7JaAFoo23XOV87XWc5rpGY2zUfxdeOsy7jaUptiE/edit?usp=sharing">Modpacks status</a>
             </p>
@@ -340,25 +335,26 @@
 
         <!-- Three columns of text below the carousel -->
 
-        <h2 class="display-5 link-body-emphasis mb-1 text-center" id="otherauthors">Сборки других авторов/Modpacks by other authors</h2>
+        <h2 class="display-5 link-body-emphasis mb-1 text-center" id="otherauthors">Сборки других авторов</h2>
         <hr>
         <div class="row">
           <div class="col-lg-4">
             <img src="./assets/brand/IIS.jpg" height="140">
             <h2 class="fw-normal">ИИС</h2>
-            <p>Сбока, посвящённая GregTech от Sapient<br>(А также его летсплей-гайд и прочие поясняющие файлы)</p>
+            <p>Сборка, посвящённая GregTech от Sapient<br>(А также его летсплей-гайд и прочие поясняющие файлы)</p>
             <p><a class="btn btn-outline-warning" href="https://idealindustrial.github.io/">Idealindustrial &raquo;</a></p>
           </div>
           <div class="col-lg-4">
             <img src="./assets/brand/GTCPM.jpg" height="140">
             <h2 class="fw-normal">GregTech Community Pack Modern</h2>
+            <p>Сборка с гречкой на новые версии, да ещё и со свежим дизайном!</p>
             <p></p>
             <p><a class="btn btn-outline-danger" href="https://www.curseforge.com/minecraft/modpacks/gregtech-community-pack-modern">CurseForge &raquo;</a></p>
           </div>
           <div class="col-lg-4">
             <img src="./assets/brand/AMPZ.jpg" height="140">
-            <h2 class="fw-normal">Ampz (Voltz for 1.20)</h2>
-            <p>Обновлённый Voltz</p>
+            <h2 class="fw-normal">AMPZ</h2>
+            <p>Обновлённый Voltz для 1.20</p>
             <p></p>
             <p><a class="btn btn-outline-success" href="https://modrinth.com/modpack/ampz">Modrinth &raquo;</a></p>
           </div>
@@ -367,7 +363,7 @@
 
       <!-- FOOTER -->
       <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
+        <p class="float-end"><a href="#">Наверх</a></p>
         <p>&copy; 2025 MonsieurFeb &middot; <a href="mailto:monsieurfeb@gmail.com">monsieurfeb@gmail.com</a></p>
       </footer>
     </main>
