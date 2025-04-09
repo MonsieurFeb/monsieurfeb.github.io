@@ -197,6 +197,7 @@
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -236,6 +237,16 @@
                 <h1>TMUC-ImmersiveEngineering</h1>
                 <p class="opacity-75">"Погружение" и массивные механизмы.<br>Ретрофутуризм во всей красе.</p>
                 <p><a class="btn btn-lg btn-primary" href="#immersive">Перейти</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/brand/HBMBanner.jpg" width="100%" alt="There should be a picture here :(">
+            <div class="container">
+              <div class="carousel-caption text-start text-white">
+                <h1>TMUC-HBM</h1>
+                <p class="opacity-75">Постапокалиптичный мир, полный опасностей<br>(и возможностей!)</p>
+                <p><a class="btn btn-lg btn-primary" href="#hbm">Перейти</a></p>
               </div>
             </div>
           </div>
@@ -291,7 +302,7 @@
               <a class="btn btn-warning" href="https://disk.yandex.ru/d/t4NXO2b7LSGPjA">Yandex.Disk</a>
               <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
               <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
-              <button type="button" class="btn btn-outline-secondary" disabled>GitHub</button>
+              <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-Create6-Beta">GitHub</a>
             </p>
           </div>
           <div class="col-md-5">
@@ -299,34 +310,10 @@
           </div>
         </div>
 
-        <hr class="featurette-divider" id="bcic2">
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">TMUC-BC+IC2</h2>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.6</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>1.7.10</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>
-            <p class="lead">Первые технологии автоматизации производства в Майнкрафт. Узнайте, как это делали 10 лет назад!</p>
-            <p>
-              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1dUPoyxP2KOXAjpPY677Dxyttm7gPw3Iu?usp=drive_link">GDrive</a>
-<!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
-              <a class="btn btn-warning" href="https://disk.yandex.ru/d/Q2oZC5NaZVDDYA">Yandex.Disk</a>
-              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
-              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
-              <button type="button" class="btn btn-outline-secondary" disabled>GitHub</button>
-            </p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img src="./assets/brand/BCIC2.jpg" width="100%" alt="There should be a picture here :(">
-          </div>
-        </div>
-
         <hr class="featurette-divider" id="thermal">
         
         <div class="row featurette">
-          <div class="col-md-7">
+          <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">TMUC-ThermalExpansion</h2>
             <button type="button" class="btn btn-secondary btn-sm" disabled>v0.1.3</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>1.20.1</button>
@@ -342,7 +329,7 @@
               <button type="button" class="btn btn-outline-secondary" disabled>GitHub</button>
             </p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 order-md-1">
             <img src="./assets/brand/Thermal.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
@@ -350,7 +337,7 @@
         <hr class="featurette-divider" id="immersive">
 
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
+          <div class="col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">TMUC-ImmersiveEngineering</h2>
             <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.5</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>1.12.2</button>
@@ -366,15 +353,63 @@
               <button type="button" class="btn btn-outline-secondary" disabled>GitHub</button>
             </p>
           </div>
-          <div class="col-md-5 order-md-1">
+          <div class="col-md-5">
             <img src="./assets/brand/Immersive.jpg" width="100%" alt="There should be a picture here :(">
+          </div>
+        </div>
+
+        <hr class="featurette-divider" id="bcic2">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">TMUC-BC+IC2</h2>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.7</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>1.7.10</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>
+            <p class="lead">Первые технологии автоматизации производства в Майнкрафт. Узнайте, как это делали 10 лет назад!</p>
+            <p>
+              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1dUPoyxP2KOXAjpPY677Dxyttm7gPw3Iu?usp=drive_link">GDrive</a>
+              <!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
+              <a class="btn btn-warning" href="https://disk.yandex.ru/d/Q2oZC5NaZVDDYA">Yandex.Disk</a>
+              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
+              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
+              <button type="button" class="btn btn-outline-secondary" disabled>GitHub</button>
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="./assets/brand/BCIC2.jpg" width="100%" alt="There should be a picture here :(">
+          </div>
+        </div>
+
+        <hr class="featurette-divider" id="hbm">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">TMUC-HBM</h2>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.1</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>1.7.10</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>
+            <p class="lead">Хотели заниматься атомной наукой, да ещё с размахом? Тогда эта сборка для вас!</p>
+            <p>
+              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1KpeMofmEQK74UQJDFl4f0Y7LiIZVoIMT?usp=sharing">GDrive</a>
+              <!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
+              <a class="btn btn-warning" href="https://disk.yandex.ru/d/z8U_j_kijIVuAw">Yandex.Disk</a>
+              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
+              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
+              <button type="button" class="btn btn-outline-secondary" disabled>GitHub</button>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="./assets/brand/HBM.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7">
+          <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">TMUC-Mekanism</h2>
             <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.0</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>Версия игры</button>
@@ -385,7 +420,7 @@
               <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/1lLu7JaAFoo23XOV87XWc5rpGY2zUfxdeOsy7jaUptiE/edit?usp=sharing">Modpacks status</a>
             </p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 order-md-1">
             <img src="./assets/brand/Mekanism.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
