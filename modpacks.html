@@ -108,7 +108,7 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="assets/carousel.css" rel="stylesheet">
+    <link href="assets/css/carousel.css" rel="stylesheet">
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -181,15 +181,63 @@
                 <a class="nav-link" href="mpeng.html">Go to english version</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">v0.2.4</a>
+                <a class="nav-link disabled" aria-disabled="true">v0.3.0</a>
               </li>
             </ul>
+            <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvas">Особая благодарность</a>
           </div>
         </div>
       </nav>
     </header>
 
     <main>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Спасибо этим людям!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="list-group list-group-flush overflow-auto">
+          <a aria-disabled="true" class="list-group-item list-group-item-action py-3 lh-sm">
+            <div class="d-flex w-100 align-items-center justify-content-between">
+              <strong class="mb-1">Skeltx</strong>
+              <small class="text-body-secondary">06.2025</small>
+            </div>
+            <div class="col-10 mb-1 small">Помощь с подбором модификаций (HBM, IE), помощь с квестами (IE)</div>
+          </a>
+          <a aria-disabled="true" class="list-group-item list-group-item-action py-3 lh-sm">
+            <div class="d-flex w-100 align-items-center justify-content-between">
+              <strong class="mb-1">Dmitrii</strong>
+              <small class="text-body-secondary">06.2025</small>
+            </div>
+            <div class="col-10 mb-1 small">Обратная связь по сборкам (Create5/6)</div>
+          </a>
+          <a aria-disabled="true" class="list-group-item list-group-item-action py-3 lh-sm">
+            <div class="d-flex w-100 align-items-center justify-content-between">
+              <strong class="mb-1">Lemon4ik, Ger_Block</strong>
+              <small class="text-body-secondary">06.2025</small>
+            </div>
+            <div class="col-10 mb-1 small">Обратная связь по контенту (Tiktok)</div>
+          </a>
+          <a aria-disabled="true" class="list-group-item list-group-item-action py-3 lh-sm">
+            <div class="d-flex w-100 align-items-center justify-content-between">
+              <strong class="mb-1">AlexSimpson75, kindwoman78</strong>
+              <small class="text-body-secondary">06.2025</small>
+            </div>
+            <div class="col-10 mb-1 small">Активные комментаторы (Tiktok)</div>
+          </a>
+          <a aria-disabled="true" class="list-group-item list-group-item-action py-3 lh-sm">
+            <div class="d-flex w-100 align-items-center justify-content-between">
+              <strong class="mb-1">Anonym92</strong>
+              <small class="text-body-secondary">06.2025</small>
+            </div>
+            <div class="col-10 mb-1 small">Активный комментатор (Telegram)</div>
+          </a>
+
+          <a aria-disabled="true" class="list-group-item list-group-item-action py-3 lh-sm disabled">
+            <div class="d-flex w-100 align-items-center justify-content-between" style="height: 40px"></div>
+          </a>
+        </div>
+      </div>
 
       <div id="myCarousel" class="carousel slide mb-6 bg-dark" data-bs-ride="carousel" data-bs-theme="light" >
         <div class="carousel-indicators">
@@ -201,7 +249,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/brand/CreateBanner.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/banner/CreateBanner.jpg" width="100%" alt="There should be a picture here :(">
             <div class="container">
               <div class="carousel-caption text-end text-white">
                 <h1>TMUC-Create</h1>
@@ -211,7 +259,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./assets/brand/BCIC2Banner.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/banner/BCIC2Banner.jpg" width="100%" alt="There should be a picture here :(">
             <div class="container">
               <div class="carousel-caption text-start text-white">
                 <h1>TMUC-BC+IC2</h1>
@@ -221,7 +269,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./assets/brand/ThermalBanner.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/banner/ThermalBanner.jpg" width="100%" alt="There should be a picture here :(">
             <div class="container">
               <div class="carousel-caption text-end text-white">
                 <h1>TMUC-ThermalExpansion</h1>
@@ -231,7 +279,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./assets/brand/ImmersiveBanner.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/banner/ImmersiveBanner.jpg" width="100%" alt="There should be a picture here :(">
             <div class="container">
               <div class="carousel-caption text-center text-white">
                 <h1>TMUC-ImmersiveEngineering</h1>
@@ -241,7 +289,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./assets/brand/HBMBanner.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/banner/HBMBanner.jpg" width="100%" alt="There should be a picture here :(">
             <div class="container">
               <div class="carousel-caption text-start text-white">
                 <h1>TMUC-HBM</h1>
@@ -267,6 +315,34 @@
 
       <div class="container marketing">
 
+        <div class="col-md-3">
+          <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseMenu" role="button" aria-expanded="false" aria-controls="collapseMenu">
+            Быстрый переход к сборке
+          </a>
+          <div class="collapse" id="collapseMenu">
+            <div class="card card-body">
+              TMUC
+              <div class="list-group">
+                <a href="#create" class="list-group-item list-group-item-action">Create 5/6</a>
+                <a href="#thermal" class="list-group-item list-group-item-action">Thermal Expansion</a>
+                <a href="#immersive" class="list-group-item list-group-item-action">Immersive Engineering</a>
+                <a href="#bcic2" class="list-group-item list-group-item-action">BuildCraft & IndustrialCraft 2</a>
+                <a href="#hbm" class="list-group-item list-group-item-action">Hbm's Nuclear Tech</a>
+                <a href="#vanguard" class="list-group-item list-group-item-action">Vanguard</a>
+                <a href="#otherside" class="list-group-item list-group-item-action">OtherSide</a>
+              </div>
+              Мои другие сборки
+              <div class="list-group">
+                <a href="#myother" class="list-group-item list-group-item-action">Thaumcraft</a>
+              </div>
+              Сборки других авторов
+              <div class="list-group">
+                <a href="#otherauthors" class="list-group-item list-group-item-action">Перейти</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- START THE FEATURETTES -->
 
         <hr class="featurette-divider" id="create">
@@ -277,63 +353,101 @@
             <button type="button" class="btn btn-secondary btn-sm" disabled>v0.1.4</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>1.20.1</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Проверено</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>70 модов</button>
+            <!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Проверено</button>-->
+            <!--            <button type="button" class="btn btn-secondary btn-sm" disabled>70 модов</button>-->
             <p class="lead">Create и его аддоны! Валы и шестерни, поезда и дрели! Полная автоматизация, основанная на вращении!<br>(Псс, на гугл/яндекс диске также есть схематики)</p>
-            <p>
-              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/19EbqNfwWQb1Mzl3srI6wbB0QghKA3Ukw?usp=sharing">GDrive</a>
-<!--              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>-->
-<!--              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>-->
-<!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
-              <a class="btn btn-warning" href="https://disk.yandex.ru/d/CAR34ZNojkNRGA">Yandex.Disk</a>
-              <a class="btn btn-success" href="https://modrinth.com/modpack/tmuc-create">Modrinth</a>
-              <a class="btn btn-danger" href="https://www.curseforge.com/minecraft/modpacks/tmuc-create">CurseForge</a>
-              <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-Create">GitHub</a>
+
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/1tW3GY6hryWNzhJMmaCk2gAa2qZCih_nMVLEAfpWBdOs/edit?usp=sharing">О сборке</a>
+              <a class="btn btn-primary" href="https://docs.google.com/document/d/1JFH2Gf-4Ha2_lyYC2PsXEDsndNmycbHnicsAMbfUoYg/edit?usp=sharing">Мини-гайды</a>
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseCreate5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Загрузить
+              </a>
             </p>
+            <div class="collapse" id="collapseCreate5">
+              <div class="card card-body col-md-9">
+                <p>
+                  <a class="btn btn-primary" href="https://drive.google.com/drive/folders/19EbqNfwWQb1Mzl3srI6wbB0QghKA3Ukw?usp=sharing">GDrive</a>
+                  <!--              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>-->
+                  <!--              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>-->
+                  <!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
+                  <a class="btn btn-warning" href="https://disk.yandex.ru/d/CAR34ZNojkNRGA">Yandex.Disk</a>
+                  <a class="btn btn-success" href="https://modrinth.com/modpack/tmuc-create">Modrinth</a>
+                  <a class="btn btn-danger" href="https://www.curseforge.com/minecraft/modpacks/tmuc-create">CurseForge</a>
+                  <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-Create">GitHub</a>
+                </p>
+              </div>
+              <br>
+            </div>
 
             <h2 class="fw-normal lh-1">TMUC-Create6-Beta</h2>
             <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.3</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>1.21.1</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>NeoForge</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Разработка</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>45 модов</button>
+            <!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Разработка</button>-->
+            <!--            <button type="button" class="btn btn-secondary btn-sm" disabled>45 модов</button>-->
             <p class="lead">Криейту на новой версии быть!</p>
-            <p>
-              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1tMPL2OHKHJW8aE_E3IkCVn-2L1lnARYH?usp=sharing">GDrive</a>
-              <!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
-              <a class="btn btn-warning" href="https://disk.yandex.ru/d/t4NXO2b7LSGPjA">Yandex.Disk</a>
-              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
-              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
-              <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-Create6-Beta">GitHub</a>
+
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/1mau0W5V3BSAeuWebkZdo_bFYqwXBAC12Gbay3yw4mDI/edit?usp=sharing">О сборке</a>
+              <a class="btn btn-primary" href="https://docs.google.com/document/d/1JFH2Gf-4Ha2_lyYC2PsXEDsndNmycbHnicsAMbfUoYg/edit?usp=sharing">Мини-гайды</a>
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseCreate6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Загрузить
+              </a>
             </p>
+            <div class="collapse" id="collapseCreate6">
+              <div class="card card-body col-md-9">
+                <p>
+                  <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1tMPL2OHKHJW8aE_E3IkCVn-2L1lnARYH?usp=sharing">GDrive</a>
+                  <a class="btn btn-warning" href="https://disk.yandex.ru/d/t4NXO2b7LSGPjA">Yandex.Disk</a>
+                  <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
+                  <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
+                  <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-Create6-Beta">GitHub</a>
+                </p>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-5">
-            <img src="./assets/brand/Create.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/icon/Create.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
 
         <hr class="featurette-divider" id="thermal">
-        
+
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">TMUC-ThermalExpansion</h2>
             <button type="button" class="btn btn-secondary btn-sm" disabled>v0.1.3</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>1.20.1</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>67 модов</button>
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Проверено</button>-->
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>67 модов</button>-->
             <p class="lead">Сборка на основе качественной модификации. Идеи мода использовали авторы Forge, Factorio, ... И это не шутка!</p>
-            <p>
-              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1b70j_v3N6Qx1dC1s6k62DX-0lsXfsasA?usp=drive_link">GDrive</a>
-<!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
-              <a class="btn btn-warning" href="https://disk.yandex.ru/d/q7TKDbk3tZ6BKw">Yandex.Disk</a>
-              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
-              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
-              <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-ThermalExpansion">GitHub</a>
+
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/1EWlmO0KMmtw6jHtct__9XcRD9BBBmOhlGWTnYgVlz28/edit?usp=sharing">О сборке</a>
+<!--              <a class="btn btn-primary" href="">Мини-гайды</a>-->
+              <button type="button" class="btn btn-outline-primary" disabled>Мини-гайды</button>
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseThermal" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Загрузить
+              </a>
             </p>
+            <div class="collapse" id="collapseThermal">
+              <div class="card card-body col-md-9">
+                <p>
+                  <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1b70j_v3N6Qx1dC1s6k62DX-0lsXfsasA?usp=drive_link">GDrive</a>
+                  <a class="btn btn-warning" href="https://disk.yandex.ru/d/q7TKDbk3tZ6BKw">Yandex.Disk</a>
+                  <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
+                  <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
+                  <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-ThermalExpansion">GitHub</a>
+                </p>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-5 order-md-1">
-            <img src="./assets/brand/Thermal.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/icon/Thermal.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
 
@@ -342,23 +456,35 @@
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">TMUC-ImmersiveEngineering</h2>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>v0.1.0</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>v0.2.0</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>1.12.2</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>60 модов</button>
-            <p class="lead">Приготовьте побольше места, ибо одноблочным механизмам тут не место!<br>(Псс, на гугл/яндекс диске также есть инфа о паках поездов и машин)</p>
-            <p>
-              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/19I_kAwwMzkNJgtXvxnmL4ilNeW2ruk6Y?usp=drive_link">GDrive</a>
-<!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
-              <a class="btn btn-warning" href="https://disk.yandex.ru/d/bAEIEDlY2LOXtA">Yandex.Disk</a>
-              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
-              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
-              <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-ImmersiveEngineering">GitHub</a>
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Проверено</button>-->
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>65 модов</button>-->
+            <p class="lead">Приготовьте побольше места, ибо одноблочным механизмам тут не место!<br>(Псс, на гугл/яндекс диске также есть инфа о паках поездов и машин)<br>(А ещё, появились квесты!)</p>
+
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/1lOjJvVINyZOKglMesJLjZaYACXydL5BrmR1EGjro6ZM/edit?usp=sharing">О сборке</a>
+              <a class="btn btn-primary" href="https://docs.google.com/document/d/1-Z-JhIJPxdJ84s0aqD20iZBPspSlrGfLc5U5vwMyGLs/edit?usp=sharing">Мини-гайды</a>
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseImmersive" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Загрузить
+              </a>
             </p>
+            <div class="collapse" id="collapseImmersive">
+              <div class="card card-body col-md-9">
+                <p>
+                  <a class="btn btn-primary" href="https://drive.google.com/drive/folders/19I_kAwwMzkNJgtXvxnmL4ilNeW2ruk6Y?usp=drive_link">GDrive</a>
+                  <a class="btn btn-warning" href="https://disk.yandex.ru/d/bAEIEDlY2LOXtA">Yandex.Disk</a>
+                  <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
+                  <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
+                  <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-ImmersiveEngineering">GitHub</a>
+                </p>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-5">
-            <img src="./assets/brand/Immersive.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/icon/Immersive.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
 
@@ -370,20 +496,32 @@
             <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.9</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>1.7.10</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>56 модов</button>
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Проверено</button>-->
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>56 модов</button>-->
             <p class="lead">Первые технологии автоматизации производства в Майнкрафт. Узнайте, как это делали 10 лет назад!</p>
-            <p>
-              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1dUPoyxP2KOXAjpPY677Dxyttm7gPw3Iu?usp=drive_link">GDrive</a>
-              <!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
-              <a class="btn btn-warning" href="https://disk.yandex.ru/d/Q2oZC5NaZVDDYA">Yandex.Disk</a>
-              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
-              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
-              <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-BCAndIC2">GitHub</a>
+
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/1ojuKf1IoQ7r4Qm-mwTdiUUgyBekjT8SPW5Oh4dAUhIA/edit?usp=sharing">О сборке</a>
+              <a class="btn btn-primary" href="https://docs.google.com/document/d/1gRss0iVNOYXrEvyJe-xGm3knlnXrRsRGmh-D_hGEfjw/edit?usp=sharing">Мини-гайды</a>
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseBCIC2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Загрузить
+              </a>
             </p>
+            <div class="collapse" id="collapseBCIC2">
+              <div class="card card-body col-md-9">
+                <p>
+                  <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1dUPoyxP2KOXAjpPY677Dxyttm7gPw3Iu?usp=drive_link">GDrive</a>
+                  <a class="btn btn-warning" href="https://disk.yandex.ru/d/Q2oZC5NaZVDDYA">Yandex.Disk</a>
+                  <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
+                  <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
+                  <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-BCAndIC2">GitHub</a>
+                </p>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-5 order-md-1">
-            <img src="./assets/brand/BCIC2.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/icon/BCIC2.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
 
@@ -392,23 +530,35 @@
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">TMUC-HBM</h2>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.2</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.3</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>1.7.10</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>35 модов</button>
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Проверено</button>-->
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>37 модов</button>-->
             <p class="lead">Хотели заниматься атомной наукой, да ещё с размахом? Тогда эта сборка для вас!</p>
-            <p>
-              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1KpeMofmEQK74UQJDFl4f0Y7LiIZVoIMT?usp=sharing">GDrive</a>
-              <!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
-              <a class="btn btn-warning" href="https://disk.yandex.ru/d/z8U_j_kijIVuAw">Yandex.Disk</a>
-              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
-              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
-              <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-HBM">GitHub</a>
+
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/1aG7l0WY7q_7aSulOw6Aql4K3E1Ik-mUevjZTHmEqxMI/edit?usp=sharing">О сборке</a>
+              <a class="btn btn-primary" href="https://docs.google.com/document/d/1VvgaD7b5wbQ1glCcGVgJ3Da_C4ydOJZvDKB2VbHYlMg/edit?usp=sharing">Мини-гайды</a>
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseHBM" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Загрузить
+              </a>
             </p>
+            <div class="collapse" id="collapseHBM">
+              <div class="card card-body col-md-9">
+                <p>
+                  <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1KpeMofmEQK74UQJDFl4f0Y7LiIZVoIMT?usp=sharing">GDrive</a>
+                  <a class="btn btn-warning" href="https://disk.yandex.ru/d/z8U_j_kijIVuAw">Yandex.Disk</a>
+                  <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
+                  <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
+                  <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-HBM">GitHub</a>
+                </p>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-5">
-            <img src="./assets/brand/HBM.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/icon/HBM.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
 
@@ -420,40 +570,91 @@
             <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.1</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>1.7.10</button>
             <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Разработка</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>44 мода</button>
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>-->
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>41 мод</button>-->
             <p class="lead">Прадеды криейта, вы на месте?</p>
-            <p>
-              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1WN5RG38SG9lxSg4lY9nzNtJ7-qKZCT0Q?usp=drive_link">GDrive</a>
-              <!--              <button type="button" class="btn btn-outline-primary" disabled>GDrive</button>-->
-              <a class="btn btn-warning" href="https://disk.yandex.ru/d/ItgEWzOv9V2VGA">Yandex.Disk</a>
-              <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
-              <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
-              <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-Vanguard">GitHub</a>
+
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/10ISPU1Q40NivYA_tKt42jDhuh7Clem50CDfumC2PWyw/edit?usp=sharing">О сборке</a>
+<!--              <a class="btn btn-primary" href="">Мини-гайды</a>-->
+              <button type="button" class="btn btn-outline-primary" disabled>Мини-гайды</button>
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseVanguard" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Загрузить
+              </a>
             </p>
+            <div class="collapse" id="collapseVanguard">
+              <div class="card card-body col-md-9">
+                <p>
+                  <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1WN5RG38SG9lxSg4lY9nzNtJ7-qKZCT0Q?usp=drive_link">GDrive</a>
+                  <a class="btn btn-warning" href="https://disk.yandex.ru/d/ItgEWzOv9V2VGA">Yandex.Disk</a>
+                  <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
+                  <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
+                  <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-Vanguard">GitHub</a>
+                </p>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-5 order-md-1">
-            <img src="./assets/brand/Vanguard.jpg" width="100%" alt="There should be a picture here :(">
+            <img src="assets/brand/icon/Vanguard.jpg" width="100%" alt="There should be a picture here :(">
+          </div>
+        </div>
+
+        <hr class="featurette-divider" id="otherside">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">TMUC-OtherSide</h2>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.1</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>1.7.10</button>
+            <button type="button" class="btn btn-secondary btn-sm" disabled>Forge</button>
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Тестирование</button>-->
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>43 мода</button>-->
+            <p class="lead">Сила пара и электричества - альтернативная версия!<br>(Псс, внутри есть обучающая карта по Electrical Age, попробуйте!)</p>
+
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/1q5U7P9trtWKNfqsP_o8-Vjsgj4qMJDln_y4NCJqWgwA/edit?usp=sharing">О сборке</a>
+<!--              <a class="btn btn-primary" href="">Мини-гайды</a>-->
+              <button type="button" class="btn btn-outline-primary" disabled>Мини-гайды</button>
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseOtherSide" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Загрузить
+              </a>
+            </p>
+            <div class="collapse" id="collapseOtherSide">
+              <div class="card card-body col-md-9">
+                <p>
+                  <a class="btn btn-primary" href="https://drive.google.com/drive/folders/19MdNtaWMFywb0kfdV1A303QntzqR9uZG?usp=drive_link">GDrive</a>
+                  <a class="btn btn-warning" href="https://disk.yandex.ru/d/VklsczUzs7Tzeg">Yandex.Disk</a>
+                  <button type="button" class="btn btn-outline-success" disabled>Modrinth</button>
+                  <button type="button" class="btn btn-outline-danger" disabled>CurseForge</button>
+                  <a class="btn btn-secondary" href="https://github.com/MonsieurFeb/TMUC-OtherSide">GitHub</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-5">
+            <img src="assets/brand/icon/OtherSide.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7">
+          <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">TMUC-Mekanism</h2>
             <button type="button" class="btn btn-secondary btn-sm" disabled>v0.0.0</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Версия игры</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>Модлоадер</button>
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Версия игры</button>-->
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>Модлоадер</button>-->
             <button type="button" class="btn btn-secondary btn-sm" disabled>Разработка</button>
-            <button type="button" class="btn btn-secondary btn-sm" disabled>? модов</button>
+<!--            <button type="button" class="btn btn-secondary btn-sm" disabled>? модов</button>-->
             <p class="lead">Сюрприз! Здесь также появится эта сборка и другие. Следите за новостями!</p>
             <p>
               <a class="btn btn-success" href="https://docs.google.com/spreadsheets/d/1lLu7JaAFoo23XOV87XWc5rpGY2zUfxdeOsy7jaUptiE/edit?usp=sharing">Modpacks status</a>
             </p>
           </div>
-          <div class="col-md-5">
-            <img src="./assets/brand/Mekanism.jpg" width="100%" alt="There should be a picture here :(">
+          <div class="col-md-5 order-md-1">
+            <img src="assets/brand/icon/Mekanism.jpg" width="100%" alt="There should be a picture here :(">
           </div>
         </div>
 
@@ -463,31 +664,42 @@
 
         <p class="featurette-divider"></p>
 
+        <h2 class="display-5 link-body-emphasis mb-1 text-center" id="myother">Мои другие сборки</h2>
+        <hr>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/brand/icon/Thaumcraft.jpg" height="140" alt="There should be a picture here :(">
+            <h2 class="fw-normal">Thaumcraft</h2>
+            <p>Внезапно, магия!<br>Целый фолиант запрещённых и не очень знаний</p>
+            <p><a class="btn btn-outline-primary" href="https://drive.google.com/drive/folders/1LpP793BR4UBcr40MP_0oy_aq2EXJcsfb?usp=sharing">GDrive &raquo;</a></p>
+          </div>
+        </div>
+
         <h2 class="display-5 link-body-emphasis mb-1 text-center" id="otherauthors">Сборки других авторов</h2>
         <hr>
         <div class="row">
-          <div class="col-lg-6">
-            <img src="./assets/brand/IIS.jpg" height="140" alt="There should be a picture here :(">
+          <div class="col-lg-4">
+            <img src="assets/brand/icon/IIS.jpg" height="140" alt="There should be a picture here :(">
             <h2 class="fw-normal">ИИС</h2>
             <p>Сборка, посвящённая GregTech от Sapient<br>(А также его летсплей-гайд и прочие поясняющие файлы)</p>
             <p><a class="btn btn-outline-warning" href="https://idealindustrial.github.io/">Idealindustrial &raquo;</a></p>
           </div>
-          <div class="col-lg-6">
-            <img src="./assets/brand/GTCPM.jpg" height="140" alt="There should be a picture here :(">
+          <div class="col-lg-4">
+            <img src="assets/brand/icon/GTCPM.jpg" height="140" alt="There should be a picture here :(">
             <h2 class="fw-normal">GregTech Community Pack Modern</h2>
             <p>Сборка с гречкой на новые версии, да ещё и со свежим дизайном!</p>
             <p></p>
             <p><a class="btn btn-outline-danger" href="https://www.curseforge.com/minecraft/modpacks/gregtech-community-pack-modern">CurseForge &raquo;</a></p>
           </div>
-          <div class="col-lg-6">
-            <img src="./assets/brand/AMPZ.jpg" height="140" alt="There should be a picture here :(">
+          <div class="col-lg-4">
+            <img src="assets/brand/icon/AMPZ.jpg" height="140" alt="There should be a picture here :(">
             <h2 class="fw-normal">AMPZ</h2>
             <p>Обновлённый Voltz для 1.20</p>
             <p></p>
             <p><a class="btn btn-outline-success" href="https://modrinth.com/modpack/ampz">Modrinth &raquo;</a></p>
           </div>
-          <div class="col-lg-6">
-            <img src="./assets/brand/Tekkit.jpg" height="140" alt="There should be a picture here :(">
+          <div class="col-lg-4">
+            <img src="assets/brand/icon/Tekkit.jpg" height="140" alt="There should be a picture here :(">
             <h2 class="fw-normal">Tekkit Classic</h2>
             <p>Архаичная индустриализация</p>
             <p></p>
