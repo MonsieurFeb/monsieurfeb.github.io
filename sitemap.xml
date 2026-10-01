@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
+
+    <!-- Главная страница (Хаб и новости) -->
+    <url>
+        <loc>https://monsieurfeb.github.io</loc>
+        <lastmod>2026-10-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.00</priority>
+    </url>
+
+    <!-- Страница со сборками TMUC -->
+    <url>
+        <loc>https://monsieurfeb.github.io/modpacks.html</loc>
+        <lastmod>2026-10-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- Страница КсюСерВера -->
+    <url>
+        <loc>https://monsieurfeb.github.io/server.html</loc>
+        <lastmod>2026-10-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- Английская версия: Главная -->
+    <url>
+        <loc>https://monsieurfeb.github.io/eng.html</loc>
+        <lastmod>2026-10-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.50</priority>
+    </url>
+
+    <!-- Английская версия: Сборки -->
+    <url>
+        <loc>https://monsieurfeb.github.io/mpeng.html</loc>
+        <lastmod>2026-10-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.50</priority>
+    </url>
+
+    <!-- Английская версия: КсюСерВер -->
+    <url>
+        <loc>https://monsieurfeb.github.io/sveng.html</loc>
+        <lastmod>2026-10-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.50</priority>
+    </url>
+
+</urlset>

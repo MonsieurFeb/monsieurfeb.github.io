@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /modpacks.html
+Allow: /server.html
+Allow: /modpacks-en.html
+Allow: /server-en.html
+
+# Запрещаем индексировать технические папки, шаблоны и стили
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/dist/
+
+# Ссылка на карту сайта для всех поисковиков
+Sitemap: https://monsieurfeb.github.io
