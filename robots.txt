@@ -3,8 +3,9 @@ Allow: /
 Allow: /index.html
 Allow: /modpacks.html
 Allow: /server.html
-Allow: /modpacks-en.html
-Allow: /server-en.html
+Allow: /eng.html
+Allow: /mpeng.html
+Allow: /sveng.html
 
 # Запрещаем индексировать технические папки, шаблоны и стили
 Disallow: /assets/css/
@@ -12,4 +13,4 @@ Disallow: /assets/js/
 Disallow: /assets/dist/
 
 # Ссылка на карту сайта для всех поисковиков
-Sitemap: https://monsieurfeb.github.io
+Sitemap: https://monsieurfeb.github.io/sitemap.xml
